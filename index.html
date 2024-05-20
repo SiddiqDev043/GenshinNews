@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Genshin News</title>
+    <!--CSS STYLE-->
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar">
+      <h1 class="logo">Genshin<span>News</span></h1>
+      <ul class="nav-links">
+        <li class="active"><a href="#"></a>Home</li>
+        <li><a href="#"></a>News</li>
+        <li><a href="#"></a>Characters</li>
+        <li><a href="#"></a>About</li>
+        <li class="ctn"><a href="#"></a>Contact</li>
+      </ul>
+      <img src="./img/menu-btn.png" alt="" class="menu-btn" />
+    </nav>
+    <header>
+      <div class="header-content">
+        <h2><span>Explore</span> The World of Teyvat</h2>
+        <div class="line"></div>
+        <h1>Genshin Impact <span>News</span></h1>
+        <a href="#" class="ctn">Selengkapnya...</a>
+      </div>
+    </header>
+
+    <!--Konten-->
+    <section class="events">
+      <div class="title">
+        <h1>Upcoming News</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="./img/img2.jpg" alt="" />
+          <h4>Berlari Ke Garis Finish</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
+            eum dicta odio, amet ex ipsum.
+          </p>
+          <a href="#" class="ctn">Baca Selengkapnya</a>
+        </div>
+        <div class="col">
+          <img src="./img/img3.jpg" alt="" />
+          <h4>Centus Aeternus</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
+            eum dicta odio, amet ex ipsum.
+          </p>
+          <a href="#" class="ctn">Baca Selengkapnya</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore">
+      <div class="explore-content">
+        <h1>EXPLORE GAME <span>EVENTS</span></h1>
+        <div class="line4"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+          delectus quod corrupti fuga numquam nam nobis, dolores omnis inventore
+          velit!
+        </p>
+        <a href="#" class="ctn4">Baca Selengkapnya</a>
+      </div>
+    </section>
+
+    <section class="upcoming">
+      <div class="row">
+        <div class="col content-col">
+          <h1>UP COMING EVENTS & NEW CHARACTERS</h1>
+          <div class="line"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
+            soluta cum officiis animi ut. Culpa, eum tenetur aperiam totam hic
+            perspiciatis unde sint repellat consectetur voluptatibus tempora
+            inventore. Reprehenderit, impedit!
+          </p>
+          <a href="#" class="ctn">Baca Selengkapnya</a>
+        </div>
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img src="./img/img4.jpg" alt="" />
+            <img src="./img/img5.jpg" alt="" />
+            <img src="./img/img6.jpg" alt="" />
+            <img src="./img/img7.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <p>
+        Batang Kuis 20372, Deli Serdang, Sumatra Utara, Indonesia | Phone:
+        +62-838-4680-3584 | Email: hafidzsddq03@gmail.com
+      </p>
+      <p>Copyright © 2024 Genshin Impact News</p>
+    </section>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
